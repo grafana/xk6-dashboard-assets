@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"testing"
 
-	assets "github.com/szkiba/xk6-dashboard-assets"
+	assets "github.com/grafana/xk6-dashboard-assets"
 )
 
 func TestConfig(t *testing.T) {

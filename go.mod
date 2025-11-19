@@ -1,3 +1,3 @@
-module github.com/szkiba/xk6-dashboard-assets
+module github.com/grafana/xk6-dashboard-assets
 
-go 1.25
+go 1.24
