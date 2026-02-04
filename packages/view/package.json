@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@types/numeral": "^2.0.2",
-    "@xk6-dashboard-assets/model": "1.0.0",
+    "@xk6-dashboard-assets/model": "workspace:*",
     "numeral": "^2.0.6",
     "pretty-bytes": "^7.0.0",
     "pretty-ms": "^9.0.0",
