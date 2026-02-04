@@ -23,6 +23,12 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Install yarn
+        shell: bash
+        run: |
+          set -euo pipefail
+          corepack enable && corepack prepare yarn@4 --activate
+
       - name: Install dependencies
         shell: bash
         run: |

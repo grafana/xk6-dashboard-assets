@@ -24,5 +24,7 @@
     "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
     "PATH": "${containerEnv:PATH}:${containerWorkspaceFolder}/node_modules/.bin",
     "K6_WEB_DASHBOARD": "true"
-  }
+  },
+
+  "postCreateCommand": "corepack enable && corepack prepare yarn@4 --activate"
 }
