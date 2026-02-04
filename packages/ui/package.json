@@ -33,7 +33,7 @@
     "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
-    "@eslint/compat": "1.2.4",
+    "@eslint/compat": "1.4.1",
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.39.2",
     "@types/react": "18.3.27",
