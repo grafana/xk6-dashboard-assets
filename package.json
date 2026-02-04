@@ -22,7 +22,7 @@
     "test": "go test ."
   },
   "devDependencies": {
-    "lerna": "9.0.0"
+    "lerna": "9.0.3"
   },
   "workspaces": [
     "packages/*"
