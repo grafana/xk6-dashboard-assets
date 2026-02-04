@@ -22,19 +22,19 @@
   },
   "dependencies": {
     "@types/numeral": "^2.0.2",
-    "@xk6-dashboard-assets/model": "1.0.0",
+    "@xk6-dashboard-assets/model": "workspace:*",
     "numeral": "^2.0.6",
     "pretty-bytes": "^7.0.0",
     "pretty-ms": "^9.0.0",
     "uplot": "^1.6.32"
   },
   "devDependencies": {
-    "@eslint/compat": "1.2.4",
+    "@eslint/compat": "1.4.1",
     "@eslint/eslintrc": "3.3.3",
-    "@eslint/js": "9.39.1",
+    "@eslint/js": "9.39.2",
     "@typescript-eslint/eslint-plugin": "8.46.4",
     "@typescript-eslint/parser": "8.46.4",
-    "eslint": "9.39.1",
+    "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.4",
     "prettier": "3.6.2",
