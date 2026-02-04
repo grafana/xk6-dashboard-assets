@@ -19,7 +19,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@xk6-dashboard-assets/view": "1.0.0"
+    "@xk6-dashboard-assets/view": "workspace:*"
   },
   "devDependencies": {
     "@eslint/compat": "1.2.4",
