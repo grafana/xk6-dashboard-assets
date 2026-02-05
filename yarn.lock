@@ -2979,7 +2979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/compiler@npm:^0.3.1":
+"@vanilla-extract/compiler@npm:^0.3.4":
   version: 0.3.4
   resolution: "@vanilla-extract/compiler@npm:0.3.4"
   dependencies:
@@ -3020,7 +3020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^8.0.4, @vanilla-extract/integration@npm:^8.0.7":
+"@vanilla-extract/integration@npm:^8.0.7":
   version: 8.0.7
   resolution: "@vanilla-extract/integration@npm:8.0.7"
   dependencies:
@@ -3054,15 +3054,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/vite-plugin@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@vanilla-extract/vite-plugin@npm:5.1.1"
+"@vanilla-extract/vite-plugin@npm:5.1.4":
+  version: 5.1.4
+  resolution: "@vanilla-extract/vite-plugin@npm:5.1.4"
   dependencies:
-    "@vanilla-extract/compiler": "npm:^0.3.1"
-    "@vanilla-extract/integration": "npm:^8.0.4"
+    "@vanilla-extract/compiler": "npm:^0.3.4"
+    "@vanilla-extract/integration": "npm:^8.0.7"
   peerDependencies:
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: 10c0/6cd9ae7505bda6f0789bf4538adef987a24ee41bcaa8356775bbf07aac3665d9d29a15ef1057add9895885e66cf661cfe0ba8340a9bcedba95ceccfcf9c16bf0
+  checksum: 10c0/d2564316c55800422c1c0a008e0e46723dc21dee0aecbec047d589ca8359fabcafbd82093aee56961d43dcaf71052c1bbd556002064fb9f7cff3c54dc31bb667
   languageName: node
   linkType: hard
 
@@ -3130,7 +3130,7 @@ __metadata:
     "@vanilla-extract/css": "npm:^1.13.0"
     "@vanilla-extract/dynamic": "npm:^2.0.3"
     "@vanilla-extract/sprinkles": "npm:^1.6.1"
-    "@vanilla-extract/vite-plugin": "npm:5.1.1"
+    "@vanilla-extract/vite-plugin": "npm:5.1.4"
     "@xk6-dashboard-assets/config": "workspace:*"
     "@xk6-dashboard-assets/model": "workspace:*"
     "@xk6-dashboard-assets/view": "workspace:*"
@@ -3167,7 +3167,7 @@ __metadata:
     "@vanilla-extract/css": "npm:^1.13.0"
     "@vanilla-extract/dynamic": "npm:^2.0.3"
     "@vanilla-extract/sprinkles": "npm:^1.6.1"
-    "@vanilla-extract/vite-plugin": "npm:5.1.1"
+    "@vanilla-extract/vite-plugin": "npm:5.1.4"
     "@vitejs/plugin-react-swc": "npm:4.2.2"
     "@xk6-dashboard-assets/config": "workspace:*"
     "@xk6-dashboard-assets/model": "workspace:*"
