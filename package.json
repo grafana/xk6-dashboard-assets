@@ -1,6 +1,7 @@
 {
   "name": "xk6-dashboard-assets",
   "version": "1.0.0",
+  "packageManager": "yarn@4.12.0",
   "description": "xk6-dashboard embeddable assets",
   "license": "AGPL-3.0",
   "private": true,
