@@ -37,7 +37,7 @@
     "@preact/preset-vite": "2.10.3",
     "@typescript-eslint/eslint-plugin": "8.46.4",
     "@typescript-eslint/parser": "8.46.4",
-    "@vanilla-extract/vite-plugin": "5.1.1",
+    "@vanilla-extract/vite-plugin": "5.1.4",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.4",
