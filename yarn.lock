@@ -3142,7 +3142,7 @@ __metadata:
     react-dom: "npm:@preact/compat@^18.0.0"
     rollup-plugin-visualizer: "npm:6.0.5"
     round-to: "npm:^7.0.0"
-    sass: "npm:1.94.0"
+    sass: "npm:1.97.3"
     uplot: "npm:^1.6.32"
     uplot-react: "npm:^1.2.2"
     vite: "npm:7.2.2"
@@ -9586,9 +9586,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.94.0":
-  version: 1.94.0
-  resolution: "sass@npm:1.94.0"
+"sass@npm:1.97.3":
+  version: 1.97.3
+  resolution: "sass@npm:1.97.3"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -9599,7 +9599,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/e32968180d4a98b4a6468920ce77ca0428c651dbdfe139572138dc0264d8329a93d652299b1d6ffce20db3d8a4981e497a4e5c3a5e0163d47db41b1e1d913123
+  checksum: 10c0/67f6b5d220f20c1c23a8b16dda5fd1c5d119ad5caf8195b185d553b5b239fb188a3787f04fc00171c62515f2c4e5e0eb5ad4992a80f8543428556883c1240ba3
   languageName: node
   linkType: hard
 
