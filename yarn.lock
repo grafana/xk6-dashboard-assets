@@ -182,7 +182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-development@npm:^7.22.5":
+"@babel/plugin-transform-react-jsx-development@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/plugin-transform-react-jsx-development@npm:7.27.1"
   dependencies:
@@ -193,7 +193,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.22.15, @babel/plugin-transform-react-jsx@npm:^7.27.1":
+"@babel/plugin-transform-react-jsx@npm:^7.27.1":
   version: 7.28.6
   resolution: "@babel/plugin-transform-react-jsx@npm:7.28.6"
   dependencies:
@@ -2103,22 +2103,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@preact/preset-vite@npm:2.10.2":
-  version: 2.10.2
-  resolution: "@preact/preset-vite@npm:2.10.2"
+"@preact/preset-vite@npm:2.10.3":
+  version: 2.10.3
+  resolution: "@preact/preset-vite@npm:2.10.3"
   dependencies:
-    "@babel/plugin-transform-react-jsx": "npm:^7.22.15"
-    "@babel/plugin-transform-react-jsx-development": "npm:^7.22.5"
-    "@prefresh/vite": "npm:^2.4.1"
-    "@rollup/pluginutils": "npm:^4.1.1"
+    "@babel/plugin-transform-react-jsx": "npm:^7.27.1"
+    "@babel/plugin-transform-react-jsx-development": "npm:^7.27.1"
+    "@prefresh/vite": "npm:^2.4.11"
+    "@rollup/pluginutils": "npm:^5.0.0"
     babel-plugin-transform-hook-names: "npm:^1.0.2"
-    debug: "npm:^4.3.4"
+    debug: "npm:^4.4.3"
     picocolors: "npm:^1.1.1"
-    vite-prerender-plugin: "npm:^0.5.3"
+    vite-prerender-plugin: "npm:^0.5.8"
   peerDependencies:
     "@babel/core": 7.x
     vite: 2.x || 3.x || 4.x || 5.x || 6.x || 7.x
-  checksum: 10c0/33bf384f463167e58a7ccb9014fdb7c9cac2a3147959af44d5cf86c86e3b660c3485486fc6c0261210ffe238e6e0e47cf0c8a677fcf40e6e49dab1facbc858ee
+  checksum: 10c0/408df7bda014cddf1a49ab5db2d9a2ff51a780ed94f0b9c7a6c5b026226a2f9910a5710f3c69d0c4dfe544c776b69b8ac624f32e31aa3d84d03b13bd8e0488dc
   languageName: node
   linkType: hard
 
@@ -2145,7 +2145,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prefresh/vite@npm:^2.4.1":
+"@prefresh/vite@npm:^2.4.11":
   version: 2.4.11
   resolution: "@prefresh/vite@npm:2.4.11"
   dependencies:
@@ -2168,7 +2168,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.2.1":
+"@rollup/pluginutils@npm:^4.2.1":
   version: 4.2.1
   resolution: "@rollup/pluginutils@npm:4.2.1"
   dependencies:
@@ -2178,7 +2178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.0.4":
+"@rollup/pluginutils@npm:^5.0.0, @rollup/pluginutils@npm:^5.0.4":
   version: 5.3.0
   resolution: "@rollup/pluginutils@npm:5.3.0"
   dependencies:
@@ -2979,7 +2979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/compiler@npm:^0.3.1":
+"@vanilla-extract/compiler@npm:^0.3.4":
   version: 0.3.4
   resolution: "@vanilla-extract/compiler@npm:0.3.4"
   dependencies:
@@ -3020,7 +3020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^8.0.4, @vanilla-extract/integration@npm:^8.0.7":
+"@vanilla-extract/integration@npm:^8.0.7":
   version: 8.0.7
   resolution: "@vanilla-extract/integration@npm:8.0.7"
   dependencies:
@@ -3054,15 +3054,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/vite-plugin@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@vanilla-extract/vite-plugin@npm:5.1.1"
+"@vanilla-extract/vite-plugin@npm:5.1.4":
+  version: 5.1.4
+  resolution: "@vanilla-extract/vite-plugin@npm:5.1.4"
   dependencies:
-    "@vanilla-extract/compiler": "npm:^0.3.1"
-    "@vanilla-extract/integration": "npm:^8.0.4"
+    "@vanilla-extract/compiler": "npm:^0.3.4"
+    "@vanilla-extract/integration": "npm:^8.0.7"
   peerDependencies:
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: 10c0/6cd9ae7505bda6f0789bf4538adef987a24ee41bcaa8356775bbf07aac3665d9d29a15ef1057add9895885e66cf661cfe0ba8340a9bcedba95ceccfcf9c16bf0
+  checksum: 10c0/d2564316c55800422c1c0a008e0e46723dc21dee0aecbec047d589ca8359fabcafbd82093aee56961d43dcaf71052c1bbd556002064fb9f7cff3c54dc31bb667
   languageName: node
   linkType: hard
 
@@ -3090,7 +3090,7 @@ __metadata:
     eslint-config-prettier: "npm:10.1.8"
     eslint-config-standard: "npm:17.1.0"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-n: "npm:17.23.1"
+    eslint-plugin-n: "npm:17.23.2"
     eslint-plugin-prettier: "npm:5.5.5"
     eslint-plugin-promise: "npm:7.2.1"
     prettier: "npm:3.6.2"
@@ -3124,13 +3124,13 @@ __metadata:
     "@eslint/compat": "npm:1.4.1"
     "@eslint/eslintrc": "npm:3.3.3"
     "@eslint/js": "npm:9.39.2"
-    "@preact/preset-vite": "npm:2.10.2"
+    "@preact/preset-vite": "npm:2.10.3"
     "@typescript-eslint/eslint-plugin": "npm:8.46.4"
     "@typescript-eslint/parser": "npm:8.46.4"
     "@vanilla-extract/css": "npm:^1.13.0"
     "@vanilla-extract/dynamic": "npm:^2.0.3"
     "@vanilla-extract/sprinkles": "npm:^1.6.1"
-    "@vanilla-extract/vite-plugin": "npm:5.1.1"
+    "@vanilla-extract/vite-plugin": "npm:5.1.4"
     "@xk6-dashboard-assets/config": "workspace:*"
     "@xk6-dashboard-assets/model": "workspace:*"
     "@xk6-dashboard-assets/view": "workspace:*"
@@ -3167,7 +3167,7 @@ __metadata:
     "@vanilla-extract/css": "npm:^1.13.0"
     "@vanilla-extract/dynamic": "npm:^2.0.3"
     "@vanilla-extract/sprinkles": "npm:^1.6.1"
-    "@vanilla-extract/vite-plugin": "npm:5.1.1"
+    "@vanilla-extract/vite-plugin": "npm:5.1.4"
     "@vitejs/plugin-react-swc": "npm:4.2.2"
     "@xk6-dashboard-assets/config": "workspace:*"
     "@xk6-dashboard-assets/model": "workspace:*"
@@ -3176,7 +3176,7 @@ __metadata:
     eslint-config-prettier: "npm:10.1.8"
     eslint-config-standard: "npm:17.1.0"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-n: "npm:17.23.1"
+    eslint-plugin-n: "npm:17.23.2"
     eslint-plugin-prettier: "npm:5.5.5"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-react: "npm:7.37.5"
@@ -5235,9 +5235,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:17.23.1":
-  version: 17.23.1
-  resolution: "eslint-plugin-n@npm:17.23.1"
+"eslint-plugin-n@npm:17.23.2":
+  version: 17.23.2
+  resolution: "eslint-plugin-n@npm:17.23.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
@@ -5250,7 +5250,7 @@ __metadata:
     ts-declaration-location: "npm:^1.0.6"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10c0/35d23fe25d92b8aa3257a8bd003094b4042c0492ddc82e8b20728eb6546d2d5c31a08be215a7996f113de7b24a1a27377136345e95a5e2c96c44d3653be2c988
+  checksum: 10c0/3808dad65628bc2dd74ebb9e7a255398f87ca348b4970307898b422bfe2302764d518f6a70d891b1fc45b08ea99ccf5ea4b3cd2d1f21f872bb60a4cdbfb22b68
   languageName: node
   linkType: hard
 
@@ -10812,7 +10812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-prerender-plugin@npm:^0.5.3":
+"vite-prerender-plugin@npm:^0.5.8":
   version: 0.5.12
   resolution: "vite-prerender-plugin@npm:0.5.12"
   dependencies:
