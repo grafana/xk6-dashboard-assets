@@ -30,10 +30,10 @@
     "uplot": "^1.6.32",
     "uplot-react": "1.2.4",
     "usehooks-ts": "^3.0.0",
-    "vite-plugin-svgr": "^3.2.0"
+    "vite-plugin-svgr": "^4.0.0"
   },
   "devDependencies": {
-    "@eslint/compat": "1.4.1",
+    "@eslint/compat": "2.0.2",
     "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "9.39.2",
     "@types/react": "19.2.10",
@@ -41,7 +41,7 @@
     "@typescript-eslint/eslint-plugin": "8.54.0",
     "@typescript-eslint/parser": "8.54.0",
     "@vanilla-extract/vite-plugin": "5.1.4",
-    "@vitejs/plugin-react-swc": "4.2.2",
+    "@vitejs/plugin-react-swc": "4.2.3",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-config-standard": "17.1.0",
@@ -56,6 +56,6 @@
     "rollup-plugin-visualizer": "6.0.5",
     "typescript": "5.9.3",
     "vite": "7.3.1",
-    "vite-tsconfig-paths": "5.1.4"
+    "vite-tsconfig-paths": "6.0.5"
   }
 }
