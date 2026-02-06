@@ -12,7 +12,13 @@ import testcontext from "./.testcontext"
 export default defineConfig({
   plugins: [
     preact(),
-    svgr(),
+    svgr({
+      include: "**/*.svg",
+      svgrOptions: {
+        exportType: "named",
+        namedExport: "ReactComponent"
+      }
+    }),
     viteSingleFile(),
     tsconfigPaths(),
     vanillaExtractPlugin(),

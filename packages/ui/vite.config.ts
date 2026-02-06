@@ -7,7 +7,13 @@ import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin"
 
 export default defineConfig({
   plugins: [
-    svgr(),
+    svgr({
+      include: "**/*.svg",
+      svgrOptions: {
+        exportType: "named",
+        namedExport: "ReactComponent"
+      }
+    }),
     react(),
     tsconfigPaths(),
     vanillaExtractPlugin(),
