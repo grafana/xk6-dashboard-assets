@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@eslint/compat": "2.0.3",
-    "@eslint/eslintrc": "3.3.3",
+    "@eslint/eslintrc": "3.3.5",
     "@eslint/js": "10.0.1",
     "eslint": "10.0.3",
     "eslint-config-prettier": "10.1.8",
