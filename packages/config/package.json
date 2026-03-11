@@ -22,7 +22,7 @@
     "@xk6-dashboard-assets/view": "workspace:*"
   },
   "devDependencies": {
-    "@eslint/compat": "2.0.2",
+    "@eslint/compat": "2.0.3",
     "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "10.0.1",
     "eslint": "10.0.3",
