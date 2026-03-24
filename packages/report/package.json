@@ -34,7 +34,7 @@
     "@eslint/compat": "2.0.3",
     "@eslint/eslintrc": "3.3.5",
     "@eslint/js": "10.0.1",
-    "@preact/preset-vite": "2.10.3",
+    "@preact/preset-vite": "2.10.5",
     "@typescript-eslint/eslint-plugin": "8.56.1",
     "@typescript-eslint/parser": "8.56.1",
     "@vanilla-extract/vite-plugin": "5.1.4",
