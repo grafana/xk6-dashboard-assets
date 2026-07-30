@@ -2789,7 +2789,7 @@ __metadata:
     uplot-react: "npm:^1.2.2"
     vite: "npm:8.0.5"
     vite-plugin-handlebars: "npm:2.0.3"
-    vite-plugin-singlefile: "npm:2.3.2"
+    vite-plugin-singlefile: "npm:2.3.3"
     vite-tsconfig-paths: "npm:6.1.1"
   languageName: unknown
   linkType: soft
@@ -10238,15 +10238,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-singlefile@npm:2.3.2":
-  version: 2.3.2
-  resolution: "vite-plugin-singlefile@npm:2.3.2"
+"vite-plugin-singlefile@npm:2.3.3":
+  version: 2.3.3
+  resolution: "vite-plugin-singlefile@npm:2.3.3"
   dependencies:
     micromatch: "npm:^4.0.8"
   peerDependencies:
     rollup: ^4.59.0
-    vite: ^5.4.11 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/004804f890d8fde91504a2aabc8b6d70a5e498c5de66d81fdc7f32f1232a29d06d6d570af6a3a78c92627683c017e0d9a74b6a4b982b74b4eb8e39923c19a8e9
+    vite: ^5.4.21 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 10c0/9c2097e7843684706af1c4d18c8f77193c3089494e6fc15c508a7d079f8d85aabb21b8b25bf2af2088fec50a18270aa928a9ce3013adb270673bc8896d51dd80
   languageName: node
   linkType: hard
 
