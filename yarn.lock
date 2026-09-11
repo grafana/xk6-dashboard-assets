@@ -1647,9 +1647,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@preact/preset-vite@npm:2.10.5":
-  version: 2.10.5
-  resolution: "@preact/preset-vite@npm:2.10.5"
+"@preact/preset-vite@npm:2.10.6":
+  version: 2.10.6
+  resolution: "@preact/preset-vite@npm:2.10.6"
   dependencies:
     "@babel/plugin-transform-react-jsx": "npm:^7.27.1"
     "@babel/plugin-transform-react-jsx-development": "npm:^7.27.1"
@@ -1664,7 +1664,7 @@ __metadata:
   peerDependencies:
     "@babel/core": 7.x
     vite: 2.x || 3.x || 4.x || 5.x || 6.x || 7.x || 8.x
-  checksum: 10c0/fb548ffa0f7a90699ddc909b318d70d1f6f255a26193628578ef81517258d63d50d412b9dc87a5a4d9b13c4a62d47e9688aeee575bc8cdeeeefe5145e62ea741
+  checksum: 10c0/e75aba6156e0f6bfb3059ac8bb409868b1c630a85283e1e6b5d84937e50b2488c6733680522f9c727ae7c765033c9ce0a7f7cb012d1137ac51b4476ab82ddd7f
   languageName: node
   linkType: hard
 
@@ -2766,7 +2766,7 @@ __metadata:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/eslintrc": "npm:3.3.5"
     "@eslint/js": "npm:10.0.1"
-    "@preact/preset-vite": "npm:2.10.5"
+    "@preact/preset-vite": "npm:2.10.6"
     "@typescript-eslint/eslint-plugin": "npm:8.58.0"
     "@typescript-eslint/parser": "npm:8.58.0"
     "@vanilla-extract/css": "npm:^1.13.0"
