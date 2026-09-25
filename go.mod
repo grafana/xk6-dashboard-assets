@@ -2,4 +2,4 @@ module github.com/grafana/xk6-dashboard-assets
 
 go 1.25.0
 
-toolchain go1.25.13
+toolchain go1.27.1
