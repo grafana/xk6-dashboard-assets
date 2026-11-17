@@ -8375,9 +8375,14 @@ __metadata:
   linkType: hard
 
 "preact@npm:^10.16.0":
-  version: 10.29.4
-  resolution: "preact@npm:10.29.4"
-  checksum: 10c0/3922cb259c6a8a2d4ab49463566148a6db2c6879f5952327179a52658c7008c6e421add4390578c8d6dabb81a386aedd4370b2dc3ec81a4b711b9a9241907f9b
+  version: 10.29.8
+  resolution: "preact@npm:10.29.8"
+  peerDependencies:
+    preact-render-to-string: ">=5"
+  peerDependenciesMeta:
+    preact-render-to-string:
+      optional: true
+  checksum: 10c0/505460352139e0ce5b9c971b69d8d9f3b73ea0f316e3ff1c0b3db9a1abe206c9dff6ba385eb796253c38fcc08b5ade70cd8da3d9d6c9e9aec1a2fd59348253ae
   languageName: node
   linkType: hard
 
